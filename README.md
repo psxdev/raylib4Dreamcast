@@ -1,6 +1,6 @@
-# raylib4Dreamcast
+# raylib4Dreamcast 
 raylib4Dreamcast is a raylib port for Sega Dreamcast
-
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S6TSF2C)
 
 <img align="left" style="width:260px" src="https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif" width="288px">
 
