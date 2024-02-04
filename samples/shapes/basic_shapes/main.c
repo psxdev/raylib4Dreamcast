@@ -100,7 +100,7 @@ int main(void)
             // Circle shapes and lines
             DrawCircle(screenWidth/5, 120, 35, DARKBLUE);
             DrawCircleGradient(screenWidth/5, 220, 60, GREEN, SKYBLUE);
-            //DrawCircleLines(screenWidth/5, 340, 80, DARKBLUE); //not supported on Dreamcast
+            DrawCircleLines(screenWidth/5, 340, 80, DARKBLUE); //not supported on Dreamcast
 
             // Rectangle shapes and lines
             DrawRectangle(screenWidth/4*2 - 60, 100, 120, 60, RED);
@@ -112,13 +112,13 @@ int main(void)
                          (Vector2){ screenWidth/4.0f *3.0f - 60.0f, 150.0f },
                          (Vector2){ screenWidth/4.0f *3.0f + 60.0f, 150.0f }, VIOLET);
 
-            /*DrawTriangleLines((Vector2){ screenWidth/4.0f*3.0f, 160.0f },
+            DrawTriangleLines((Vector2){ screenWidth/4.0f*3.0f, 160.0f },
                               (Vector2){ screenWidth/4.0f*3.0f - 20.0f, 230.0f },
-                              (Vector2){ screenWidth/4.0f*3.0f + 20.0f, 230.0f }, DARKBLUE);*///Not supported on Dreamcast
+                              (Vector2){ screenWidth/4.0f*3.0f + 20.0f, 230.0f }, DARKBLUE);//Not supported on Dreamcast
 
             // Polygon shapes and lines
             DrawPoly((Vector2){ screenWidth/4.0f*3, 330 }, 6, 80, rotation, BROWN);
-            //DrawPolyLines((Vector2){ screenWidth/4.0f*3, 330 }, 6, 90, rotation, BROWN); //Not supported on Dreamcast
+            DrawPolyLines((Vector2){ screenWidth/4.0f*3, 330 }, 6, 90, rotation, BROWN); //Not supported on Dreamcast
             DrawPolyLinesEx((Vector2){ screenWidth/4.0f*3, 330 }, 6, 85, rotation, 6, BEIGE);
 
             // NOTE: We draw all LINES based shapes together to optimize internal drawing,
