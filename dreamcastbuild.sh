@@ -6,6 +6,6 @@ if test ! $KOS_BASE; then { echo "ERROR: Set \$KOS_BASE installing kos sdk and k
 if test ! $KOS_BASE; then { echo "ERROR: Set \$KOS_PORTS installing kos sdk and kos-ports before continuing."; exit 1; } fi
 
 git clone https://github.com/raylib4Consoles/raylib -b dreamcast
-cd rayib/src
+cd raylib/src
 make 
 make install
